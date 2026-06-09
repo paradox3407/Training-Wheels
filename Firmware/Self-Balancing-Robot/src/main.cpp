@@ -6,6 +6,9 @@
   // declaring pins
   const int pwm1 = 18, int1 = 19, int2 = 21;
   const int pwm2 = 22, int3 = 23, int4 = 25; 
+  // MPU I2c pinss
+  const int SDA_PIN = 21;
+  const int SCL_PIN = 22;
 
   const float desiredOutput = -1.9; // desired angle (r)
   const float Kp = 80; 
@@ -14,9 +17,7 @@
   const int minSpeed = 0; 
   
 
-  //Wiring:
-  // SDA = 21;
-  // SCL = 22;
+
 
   // declare mpu object
   MPU6050 mpu(Wire);
@@ -31,8 +32,8 @@
     pinMode(int3, OUTPUT);
     pinMode(int4, OUTPUT);
 
-    Serial.begin(115200);             // begin Serial communication: change to 115200 because 9600 is too slow
-    Wire.begin();                     // begins I2c communication, when no arguments, assumes bus to be controller
+    Serial.begin(115200);             // begin Serial communication
+    Wire.begin(SDA_PIN, SCL_PIN);     // explicit I2C pins for ESP32
     Wire.setWireTimeout(3000, true);  // 3ms timeout, reset on timeout
     byte mpuSucess = mpu.begin();     // confused about parameters, return byte
     if (mpuSucess == 0) {
@@ -46,6 +47,12 @@
     // set mpu offsets
     mpu.setAccOffsets(-0.0743398427, 0.0285234403, -0.0075678706);
     mpu.setGyroOffsets(0.7554199695, 0.7554199695, 0.7554199695);
+
+    // configure PWM channels for ESP32
+    ledcSetup(pwmChannel1, pwmFreq, pwmResolution);
+    ledcAttachPin(pwm1, pwmChannel1);
+    ledcSetup(pwmChannel2, pwmFreq, pwmResolution);
+    ledcAttachPin(pwm2, pwmChannel2);
   }
 
   void setMotors(float u) {
@@ -62,15 +69,15 @@
       digitalWrite(int2, LOW);
       digitalWrite(int3, LOW);
       digitalWrite(int4, HIGH);
-      analogWrite(pwm1, u);
-      analogWrite(pwm2, u);
+      ledcWrite(pwmChannel1, (int)constrain(u, 0, 255));
+      ledcWrite(pwmChannel2, (int)constrain(u, 0, 255));
     } else {
       digitalWrite(int1, LOW);
       digitalWrite(int2, HIGH);
       digitalWrite(int3, HIGH);
       digitalWrite(int4, LOW);
-      analogWrite(pwm1, -u);
-      analogWrite(pwm2, -u);
+      ledcWrite(pwmChannel1, (int)constrain(-u, 0, 255));
+      ledcWrite(pwmChannel2, (int)constrain(-u, 0, 255));
     }
 
   }
