@@ -4,6 +4,3 @@
 .vscode/launch.json
 .vscode/ipch
 .vscode
-# Exclude heavy asset and reference folders
-Documentation/
-Resources/
