@@ -34,9 +34,9 @@ void setup() {
   Serial.print("gyroXoffset: ");
   Serial.println(gyroXoffset, 10);
   Serial.print("gyroYoffset: ");
-  Serial.println(gyroXoffset, 10);
+  Serial.println(gyroYoffset, 10);
   Serial.print("gyroZoffset: ");
-  Serial.println(gyroXoffset, 10);
+  Serial.println(gyroZoffset, 10);
 }
 void loop() {
   
