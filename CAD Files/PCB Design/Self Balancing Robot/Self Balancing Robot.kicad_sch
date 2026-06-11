@@ -2264,6 +2264,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 151.13 78.74)
@@ -2545,16 +2670,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 34.29) (xy 146.05 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "351b6092-8503-4670-950c-dee5ae8d667a")
-	)
-	(wire
-		(pts
 			(xy 68.58 83.82) (xy 74.93 83.82)
 		)
 		(stroke
@@ -2775,16 +2890,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 34.29) (xy 195.58 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8f9f65e-bd93-43a9-ba6a-64d7ac923390")
-	)
-	(wire
-		(pts
 			(xy 60.96 30.48) (xy 63.5 30.48)
 		)
 		(stroke
@@ -2962,16 +3067,6 @@
 			(type default)
 		)
 		(uuid "fc2bff34-1b94-4099-a54a-e4e0172fd359")
-	)
-	(label "VDD"
-		(at 146.05 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0fc0c30e-3cb6-46da-8602-3555b0d17126")
 	)
 	(label "R_2B"
 		(at 214.63 63.5 180)
@@ -3203,16 +3298,6 @@
 		)
 		(uuid "adcebdef-a3a8-42dd-9df7-924e0425c143")
 	)
-	(label "VDD"
-		(at 68.58 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "add0e4d9-2523-425e-8e1b-6d8a30c54609")
-	)
 	(label "R_1B"
 		(at 256.54 41.91 0)
 		(effects
@@ -3292,16 +3377,6 @@
 			(justify right bottom)
 		)
 		(uuid "c040d1da-ffb5-4a3c-8e60-be18ffbcac25")
-	)
-	(label "VDD"
-		(at 195.58 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d98a5a9a-6b12-4863-a5d5-803628816319")
 	)
 	(label "L_2A"
 		(at 240.03 72.39 0)
@@ -3490,6 +3565,72 @@
 			(project "Self Balancing Robot"
 				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 68.58 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17034889-c48f-4eae-bbf4-eeff1678517b")
+		(property "Reference" "#PWR015"
+			(at 68.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 68.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a89f5b5-b1aa-4641-bebb-69256716a265")
+		)
+		(instances
+			(project "Self Balancing Robot"
+				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3970,6 +4111,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 195.58 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42d9d313-6865-44ca-be49-d81ea906574c")
+		(property "Reference" "#PWR013"
+			(at 195.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 195.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 195.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08c1057d-15e1-45ec-a984-8eaf57a63e57")
+		)
+		(instances
+			(project ""
+				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DEVKIT_V1_ESP32-WROOM-32:DEVKIT_V1_ESP32-WROOM-32")
 		(at 90.17 63.5 0)
 		(unit 1)
@@ -4257,6 +4464,72 @@
 			(project ""
 				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 146.05 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "532ae17b-9734-4c48-8d9f-dbd992ab71ee")
+		(property "Reference" "#PWR014"
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 146.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c780655-d73b-4742-bf8b-cf5771b8f4ef")
+		)
+		(instances
+			(project "Self Balancing Robot"
+				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
