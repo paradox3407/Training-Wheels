@@ -1,4 +1,16 @@
-CAD Files/
+# Global Settings
 Documentation/
 Resources/
 .vscode/
+
+# Firmware Settings
+Firmware/Self-Balancing-Robot/.pio/
+Firmware/Self-Balancing-Robot/.vscode/
+Firmware/Self-Balancing-Robot/.vscode/.browse.c_cpp.db*
+Firmware/Self-Balancing-Robot/.vscode/c_cpp_properties.json
+Firmware/Self-Balancing-Robot/.vscode/launch.json
+Firmware/Self-Balancing-Robot/.vscode/ipch/
+
+# Local Experiments
+Firmware/Arduino Sketches/
+Firmware/Self-Balancing-Robot/src/test_code/
