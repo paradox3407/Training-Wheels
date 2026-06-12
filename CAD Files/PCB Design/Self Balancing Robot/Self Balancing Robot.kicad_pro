@@ -447,8 +447,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "TW Footprints"
+    ],
+    "pinned_symbol_libs": [
+      "TW_Symbols"
+    ]
   },
   "meta": {
     "filename": "Self Balancing Robot.kicad_pro",
@@ -655,6 +659,48 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "b_max",
+          "name": "b_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "b_nom",
+          "name": "b_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "e_nom",
+          "name": "e_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "A_max",
+          "name": "A_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_nom",
+          "name": "D_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DESCRIPTION",
+          "name": "DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],
