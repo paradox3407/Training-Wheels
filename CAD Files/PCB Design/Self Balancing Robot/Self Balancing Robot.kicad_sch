@@ -5,8 +5,8 @@
 	(uuid "8f2bd506-f7d4-4737-9fdb-e37307024639")
 	(paper "A4")
 	(title_block
-		(title "Self Bancing Robot")
-		(date "2026-06-04")
+		(title "Training Wheels Schematic")
+		(date "2026-06-12")
 		(company "By: Sara Chiguchi")
 	)
 	(lib_symbols
@@ -2611,7 +2611,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+6V"
+		(symbol "power:+12V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2632,7 +2632,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+6V"
+			(property "Value" "+12V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2658,7 +2658,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2676,7 +2676,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+6V_0_1"
+			(symbol "+12V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2714,7 +2714,7 @@
 					)
 				)
 			)
-			(symbol "+6V_1_1"
+			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3083,10 +3083,16 @@
 		(uuid "2dc4dd86-cebf-4824-9ea4-cb8708314f31")
 	)
 	(junction
+		(at 144.78 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "483bd61b-8218-4707-ab0a-390641693475")
+	)
+	(junction
 		(at 200.66 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "324575ab-3eec-4b19-856e-a4d9f8da2bc3")
+		(uuid "55d9f652-bbf1-4944-9f6c-58209c7c5c5f")
 	)
 	(junction
 		(at 184.15 50.8)
@@ -3099,12 +3105,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5025b2e-c02d-4242-b153-94a09afdd1a2")
-	)
-	(junction
-		(at 144.78 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d574a8bb-105c-411f-b3e4-864d48a0db09")
 	)
 	(junction
 		(at 200.66 78.74)
@@ -3846,13 +3846,13 @@
 		)
 		(uuid "45143663-acc7-4635-9f9d-a7f9077819eb")
 	)
-	(label "R_2A"
-		(at 240.03 49.53 0)
+	(label "R_2B"
+		(at 251.46 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "50329a01-4d60-4d95-894f-745a19fb73c9")
 	)
@@ -3866,8 +3866,8 @@
 		)
 		(uuid "50ffabf9-f6ad-459d-944d-d413bdd6bab9")
 	)
-	(label "R_2B"
-		(at 240.03 54.61 0)
+	(label "R_2A"
+		(at 256.54 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3877,12 +3877,12 @@
 		(uuid "54b456e6-210e-45d3-adf4-f2a64dcd05ff")
 	)
 	(label "L_2B"
-		(at 240.03 77.47 0)
+		(at 251.46 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "70623a00-569c-4ff6-8a7b-98c8573a5a68")
 	)
@@ -3936,8 +3936,8 @@
 		)
 		(uuid "adcebdef-a3a8-42dd-9df7-924e0425c143")
 	)
-	(label "R_1B"
-		(at 256.54 41.91 0)
+	(label "R_1A"
+		(at 240.03 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3947,7 +3947,7 @@
 		(uuid "afc9117a-a49d-4bdb-91dc-c016fdc35795")
 	)
 	(label "L_1A"
-		(at 256.54 66.04 0)
+		(at 240.03 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3976,13 +3976,13 @@
 		)
 		(uuid "b8373fcc-f4e5-47e8-bc6c-e8acaf22071a")
 	)
-	(label "R_1A"
-		(at 251.46 41.91 180)
+	(label "R_1B"
+		(at 240.03 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "be128cca-1f35-46f2-ad26-2120ee0d5592")
 	)
@@ -3997,17 +3997,17 @@
 		(uuid "be954a4a-7142-4fa9-97d7-0cd927537a9f")
 	)
 	(label "L_1B"
-		(at 251.46 66.04 180)
+		(at 240.03 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c040d1da-ffb5-4a3c-8e60-be18ffbcac25")
 	)
 	(label "L_2A"
-		(at 240.03 72.39 0)
+		(at 256.54 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4134,6 +4134,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 200.66 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02af44d5-2e27-4623-b9bc-950d6690bf8e")
+		(property "Reference" "#PWR09"
+			(at 200.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 200.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8064fd50-b20b-42d9-bb3a-0b987be34f35")
+		)
+		(instances
+			(project "Self Balancing Robot"
+				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 78.74 0)
 		(unit 1)
@@ -4194,6 +4260,72 @@
 			(project "Self Balancing Robot"
 				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 130.81 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07774a4b-d60e-4fc2-aabb-8dc719233329")
+		(property "Reference" "#PWR011"
+			(at 130.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 130.81 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 130.81 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "389821c5-6c3c-4b35-a76f-61088dadb512")
+		)
+		(instances
+			(project "Self Balancing Robot"
+				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4474,7 +4606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28588e23-1edd-460b-b2ae-c0b1e609ae02")
-		(property "Reference" "M2"
+		(property "Reference" "M1"
 			(at 259.08 72.809 0)
 			(effects
 				(font
@@ -4492,7 +4624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
 			(at 254.254 75.184 0)
 			(effects
 				(font
@@ -4534,7 +4666,7 @@
 		(instances
 			(project "Self Balancing Robot"
 				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
-					(reference "M2")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -5006,17 +5138,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+6V")
-		(at 119.38 24.13 0)
+		(lib_id "power:+12V")
+		(at 40.64 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "57469e7c-c39c-4756-ad80-0aa14a30e4b1")
-		(property "Reference" "#PWR011"
-			(at 119.38 27.94 0)
+		(uuid "5afee727-e34a-4315-8cff-04a514e2359c")
+		(property "Reference" "#PWR026"
+			(at 40.64 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,7 +5157,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 119.38 19.05 0)
+			(at 40.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 24.13 0)
+			(at 40.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 24.13 0)
+			(at 40.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,8 +5182,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 119.38 24.13 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 40.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,12 +5192,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "67d2b346-9582-4bcd-9392-ccb3e12d39bc")
+			(uuid "a43d4546-14e6-49ba-b5d5-84da519feefa")
 		)
 		(instances
 			(project "Self Balancing Robot"
 				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
-					(reference "#PWR011")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5184,6 +5316,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 119.38 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c2afb76-8852-4563-9ea5-97a6fc74e907")
+		(property "Reference" "#PWR08"
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 119.38 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 119.38 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d49cdda6-1acf-4dcd-89a1-f725f440b381")
+		)
+		(instances
+			(project "Self Balancing Robot"
+				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 93.98 22.86 90)
 		(unit 1)
@@ -5201,7 +5399,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "620"
 			(at 93.98 19.05 90)
 			(effects
 				(font
@@ -5539,72 +5737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+6V")
-		(at 40.64 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "708a1017-ddd9-48da-9f90-7aec2f3dcd67")
-		(property "Reference" "#PWR08"
-			(at 40.64 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 40.64 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 40.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f59fb8be-581f-4abb-bf2e-d3201fd8eea5")
-		)
-		(instances
-			(project "Self Balancing Robot"
-				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Converter_DCDC:TSR_1-2450")
 		(at 50.8 33.02 0)
 		(unit 1)
@@ -5871,72 +6003,6 @@
 			(project ""
 				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+6V")
-		(at 200.66 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ab08a18-d56a-4659-a4f1-40c790c2d68a")
-		(property "Reference" "#PWR09"
-			(at 200.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 200.66 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f4976c0-e262-4e30-8d3a-898ba3a15751")
-		)
-		(instances
-			(project "Self Balancing Robot"
-				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6505,72 +6571,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+6V")
-		(at 130.81 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b23faac0-45ff-4937-8004-a4db5f3957cb")
-		(property "Reference" "#PWR016"
-			(at 130.81 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 130.81 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 130.81 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "baadc8e3-3e64-431c-95ba-a04bb0879805")
-		)
-		(instances
-			(project "Self Balancing Robot"
-				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 129.54 68.58 90)
 		(unit 1)
@@ -6705,72 +6705,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+6V")
-		(at 144.78 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c958c884-7ec3-4172-9b4b-c481706eab44")
-		(property "Reference" "#PWR01"
-			(at 144.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 144.78 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 144.78 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55b1f25e-08c3-4673-8261-73dd0fc80df2")
-		)
-		(instances
-			(project "Self Balancing Robot"
-				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 135.89 22.86 0)
 		(unit 1)
@@ -6850,7 +6784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d38d93c4-d90c-48ce-97f6-20cf97b01f1c")
-		(property "Reference" "M1"
+		(property "Reference" "M2"
 			(at 259.08 49.949 0)
 			(effects
 				(font
@@ -6868,7 +6802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
 			(at 254.254 52.324 0)
 			(effects
 				(font
@@ -6910,7 +6844,7 @@
 		(instances
 			(project ""
 				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
-					(reference "M1")
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -6934,7 +6868,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "270"
 			(at 140.97 90.17 90)
 			(effects
 				(font
@@ -6979,6 +6913,72 @@
 			(project "Self Balancing Robot"
 				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 144.78 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee52d880-c799-4bce-96e8-561938cedc93")
+		(property "Reference" "#PWR01"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c207cae-2027-41b0-a499-b52f256c4eb4")
+		)
+		(instances
+			(project "Self Balancing Robot"
+				(path "/8f2bd506-f7d4-4737-9fdb-e37307024639"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
