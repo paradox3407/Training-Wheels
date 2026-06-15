@@ -22,30 +22,36 @@ This project was made for [Hackclub's](https://hackclub.com/programs) Fallout Pr
 
 ## Gallery 
 
-### Chassis / Assembly
+<details>
+  <summary> Click to expand the Robot Gallery</summary>
+  <br>
 
-Designed in [Onshape](https://www.onshape.com/en/)
+  ### Chassis / Assembly
+  *Designed in Onshape*
 
-<img width="500" height="673" alt="Exploded View2" src="https://github.com/user-attachments/assets/e3be6484-523a-4d1d-9c26-fb0927ad3d47" />
-<img width="500" height="694" alt="ExplodedView1" src="https://github.com/user-attachments/assets/ac04ebde-9fb5-4620-90e8-4c7cc001a5c1" />
+  <p align="center">
+    <img width="400" alt="Exploded View 2" src="https://github.com/user-attachments/assets/e3be6484-523a-4d1d-9c26-fb0927ad3d47" />
+    <img width="400" alt="Exploded View 1" src="https://github.com/user-attachments/assets/ac04ebde-9fb5-4620-90e8-4c7cc001a5c1" />
+  </p>
 
-### PCB 
+  ### PCB 
+  *Designed in KiCad*
 
-Designed in [KiCad](https://www.kicad.org/)
+  <p align="center">
+    <img width="800" alt="Assembled PCB" src="https://github.com/user-attachments/assets/f798cc63-53ed-43c6-a397-5de1428bea95" />
+  </p>
 
-<img width="1088" height="881" alt="Assembled" src="https://github.com/user-attachments/assets/f798cc63-53ed-43c6-a397-5de1428bea95" />
+  #### Schematic
+  <img width="100%" alt="Schematic" src="https://github.com/user-attachments/assets/865efe3e-3a1d-4a05-bc29-a6e57ddf9ef7" />
 
-#### Schematic
+  #### Layout
+  <img width="100%" alt="PCB Layout" src="https://github.com/user-attachments/assets/714766f9-14b1-4638-81a3-7358a8016356" />
 
-<img width="1363" height="512" alt="Screenshot 2026-06-12 001020" src="https://github.com/user-attachments/assets/865efe3e-3a1d-4a05-bc29-a6e57ddf9ef7" />
-
-#### Layout
-
-<img width="1330" height="844" alt="PCB v1" src="https://github.com/user-attachments/assets/714766f9-14b1-4638-81a3-7358a8016356" />
+</details>
 
 ## Firmware (Setup + Tuning)
 
-Written in C++ using VSCode + [PlatformIO](https://platformio.org/)
+*Written in C++ using VSCode + [PlatformIO](https://platformio.org/)*
 
 ### How to Build & Flash
 1. Clone this repository.
