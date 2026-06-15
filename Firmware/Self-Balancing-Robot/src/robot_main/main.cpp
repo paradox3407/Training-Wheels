@@ -12,10 +12,12 @@
   const int SDA_PIN = 21;
   const int SCL_PIN = 22;
 
-  const float desiredOutput = 0; // desired angle (r)
+  const float desiredOutput = 0; // desired angle 
   const float Kp = 0; 
   const float Ki = 0;
-  const float Kd = 0; 
+  const float Kd = 0;
+  
+  
   const int minSpeed = 0;
 
   // declare mpu object
@@ -29,12 +31,12 @@
     Serial.begin(115200);             // begin Serial communication
     Wire.begin(SDA_PIN, SCL_PIN);     // explicit I2C pins for ESP32
     //Wire.setWireTimeout(3000, true);  // 3ms timeout, reset on timeout
-    byte mpuSucess = mpu.begin();     
-    if (mpuSucess == 0) {
+    byte mpuSuccess = mpu.begin();     
+    if (mpuSuccess == 0) {
       Serial.println("MPU connected successfully!");
     } else {
-      Serial.println("MPU connecton failed.");
-      while (1) {  // while true, so delay indefinitly
+      Serial.println("MPU connection failed.");
+      while (1) {  // while true, so delay indefinitely
         delay(10);
       }
     }
@@ -72,7 +74,7 @@
       stepper1.setSpeed(0);
       stepper2.setSpeed(0);
       Serial.println("It fell..");
-      while (1) { // while true, so delay indefinitly 
+      while (1) { // while true, so delay indefinitely 
         delay(10); 
       }
     }
