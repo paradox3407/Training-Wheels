@@ -23,11 +23,13 @@ This project was made for [Hackclub's](https://hackclub.com/programs) Fallout Pr
 ## Gallery 
 
 <details>
-  <summary> Click to expand the Robot Gallery</summary>
+  <summary> Click to expand </summary>
   <br>
 
   ### Chassis / Assembly
-  *Designed in Onshape*
+  *Designed in Onshape* 
+  
+  Source Files found [here](https://cad.onshape.com/documents/563a6cb8d162cb6cd823a1f9/w/2660c435afac39828b2200f7/e/e81ee193bff4145dfd9a22a6)
 
   <p align="center">
     <img width="400" alt="Exploded View 2" src="https://github.com/user-attachments/assets/e3be6484-523a-4d1d-9c26-fb0927ad3d47" />
