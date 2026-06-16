@@ -1,0 +1,26 @@
+Item,Description,Quantity,Unit Price ($),Total Price ($),URL,Running Total ($ with Tax),Footprint
+Pololu_Breakout_A4988,Motor Driver,2,8.95,17.9,https://www.pololu.com/product/1182,19.2,Module:Pololu_Breakout-16_15.2x20.3mm
+ECA1HM101,Capacitor,2,$0.45,$0.90,https://www.digikey.com/en/products/detail/panasonic-industry/ECA-1HM101/245041,$20.75,TW Footprints:CP_Radial_D6.3mm_P2.50mm
+Red SMD LED,Indicator LEDs,2,$0.15,$0.30,https://www.sparkfun.com/red-led-surface-mount-1206.html,$21.27,TW Footprints:SMD LED 1206
+Screw_Terminal_01x02,Power Terminal,1,$1.54,$1.54,https://www.mouser.com/ProductDetail/Altech/MV-152?qs=sGAEpiMZZMvPvGwLNS6715fLxDSS7ZPWguTwbRPpKV4%3D,$23.93,TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
+Wire Ferrules,For Power wires,1,13.18,13.18,https://www.aliexpress.com/i/2251832854626098.html?gatewayAdapt=4itemAdapt,$46.67,
+Stepper_Motor_bipolar,Motors,2,$9.13,$18.26,https://www.omc-stepperonline.com/nema-17-bipolar-45ncm-63-74oz-in-1-5a-42x42x39mm-4-wires-w-1m-pin-connector-17hs15-1504s-x1,$55.43,Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal
+GY-521,MPU Breakout Board,1,$5.94,$5.94,https://www.aliexpress.us/item/3256809115197759.html?src=google&gatewayAdapt=glo2usa,$65.68,TW Footprints:MODULE_GY-521
+620 Ohm Resistor,Resistor,1,0.1,0.1,https://www.mouser.com/ProductDetail/YAGEO/AC1206FR-7W620RL?qs=sGAEpiMZZMvdGkrng054t4v35oYz4BJEFkol%252BljLr%252BRxFL3Up5PZ0A%3D%3D,$65.85,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+270 Ohm Resistor,Resistor,1,$0.19,$0.19,https://www.mouser.com/ProductDetail/Vishay/RCA1206270RJNEA?qs=sGAEpiMZZMtlubZbdhIBIOxU6kuYwPD0YBDy2BQIpik%3D,$66.18,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+DEVKIT_V1_ESP32-WROOM-32,,1,$11.64,$11.64,https://www.walmart.com/ip/ESP32-DevKitC-Development-Board-Dual-Mode-WiFi-Cores-Microcontroller-Processor-Integrated/18697105487?wmlspartner=wlpa&selectedSellerId=101639676&adid=2222222222718697105487_101639676_14069003552_202077872&wl0&wl1=g&wl2=c&wl3=42423897272&wl4=pla-2449037643288&wl5=9031905&wl6&wl7&wl8&wl9=pla&wl10=5438019843&wl11=online&wl12=18697105487_101639676&veh=sem,$86.26,TW Footprints:MODULE_DEVKIT_V1_ESP32-WROOM-32
+TSR_1-2450,DC DC CONVERTER 5V 5W,1,$6.16,$6.16,https://www.digikey.com/en/products/detail/traco-power/TSR-1-2450/9383780,$96.89,Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT
+Bismuth Solder Paste,For SMD Soldering ,1,16.99,16.99,https://www.amazon.com/Solder-Paste-Soldering-Electronic-Remove/dp/B0BVKB9PY4,$126.20,
+LED Rocker Swith,Power Switch,1,$5.73,$5.73,https://www.aliexpress.us/item/3256810220221486.html?algo_exp_id=eede4210-e75f-40d5-97c3-01292b734cb4-7&pdp_ext_f=%7B%22order%22%3A%22189%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis!USD!5.73!2.20!!!38.48!14.73!%402101e2b017815761649535697ef2e5!12000052303376541!sea!US!0!ABX!1!0!n_tag%3A-29910%3Bd%3Ad141a80b%3Bm03_new_user%3A-29895%3BpisId%3A5000000208023469&curPageLogUid=jQC0xfIuNxaA&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005010406536238%7C_p_origin_prod%3A,$136.08,
+18650 2500mAh 20A Battery,Battery,3,$4.99,$14.97,https://www.18650batterystore.com/products/samsung-25r-18650?adgroupid=43081474946,$161.90,
+18650 Battery Holder,Battery Holder,1,$2.40,$2.40,https://www.digikey.com/en/products/detail/dfrobot/FIT0539/8549502,$166.04,
+S4B-EH,Motor connector,2,$0.16,$0.32,https://www.digikey.com/en/products/detail/jst-sales-america-inc/S4B-EH/926535,$166.59,
+"2.54mm 0.1"" 15-pin Female Header",ESP32 Header,2,$1.63,$3.26,https://www.electromaker.io/shop/product/254mm-01-15-pin-female-header,$172.21,
+WR-PHD 2.54 MM SOCKET HEADER; 8,Motor Driver Header,5,$0.40,$2.00,https://www.digikey.com/en/products/detail/w-rth-elektronik/61300811821/17737805,$175.66,
+M3-0.5x12 Class 12.9 Alloy Flat Socket Head Cap Screws ,Battery Mounting Screws ,6,0.18,1.08,https://boltsandnuts.com/products/m3-0-5x12-class-12-9-alloy-flat-socket-head-cap-screws-black-oxide?variant=49873161552193&country=US&currency=USD,$177.52,
+M3 x 6mm Full Thread Socket Cap Head Screws ,PCB mounting Screws,11,0.26,2.86,https://accu-components.com/us/metric-cap-head-screws/3817-SSCF-M3-6-A2,$182.45,
+85mm Mecanum Wheel High Grip Rubber Tires ,Wheel,2,6.73,13.46,https://www.aliexpress.us/item/3256804851566721.html?gatewayAdapt=glo2usa4itemAdapt,$205.67,
+6mm coupling,Wheel Coupling,2,6.73,13.46,https://www.aliexpress.us/item/3256804851566721.html?gatewayAdapt=glo2usa4itemAdapt,$228.89,
+PLA+ Filament,Chassis ,1,$13.99,$13.99,https://www.amazon.com/ELEGOO-Filament-Dimensional-Accuracy-Compatible/dp/B0BM7WZPXJ,$253.02,
+,,,,,,,
+,,,,,Total: ,$253.02,
