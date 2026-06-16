@@ -3,6 +3,9 @@ Documentation/
 Resources/
 .vscode/
 
+# CAD Settings 
+CAD Files\3D prints\Chassis V2.zip
+
 # Firmware Settings
 Firmware/Self-Balancing-Robot/.pio/
 Firmware/Self-Balancing-Robot/.vscode/
