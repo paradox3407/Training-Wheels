@@ -1,4 +1,4 @@
-<img width="1114" height="931" alt="Robot!" src="https://github.com/user-attachments/assets/f5c5bf4a-bc64-460c-bd86-debc76adae55" />
+<img width="949" height="933" alt="Screenshot 2026-06-16 010036" src="https://github.com/user-attachments/assets/33ced204-fea6-49c0-b08b-195e1566d54b" />
 
 # Training Wheels
 
@@ -32,8 +32,8 @@ This project was made for [Hackclub's](https://hackclub.com/programs) Fallout Pr
   Source Files found [here](https://cad.onshape.com/documents/563a6cb8d162cb6cd823a1f9/w/2660c435afac39828b2200f7/e/e81ee193bff4145dfd9a22a6)
 
   <p align="center">
-    <img width="400" alt="Exploded View 2" src="https://github.com/user-attachments/assets/e3be6484-523a-4d1d-9c26-fb0927ad3d47" />
-    <img width="400" alt="Exploded View 1" src="https://github.com/user-attachments/assets/ac04ebde-9fb5-4620-90e8-4c7cc001a5c1" />
+    <img width="607" height="933" alt="Screenshot 2026-06-16 010238" src="https://github.com/user-attachments/assets/20d90fa9-5498-4d31-8a8c-7351772157d1" />
+    <img width="703" height="966" alt="Screenshot 2026-06-16 010210" src="https://github.com/user-attachments/assets/a0d517b1-b1d8-4ae3-bec7-32470eecb58b" />
   </p>
 
   ### PCB 
@@ -83,6 +83,12 @@ Tune these values in the following order:
 `Ki` is the integral gain, which address drift. By this point the robot should be balancing but if it glides forward or backwards, increase this value, also starting small. Note that `Ki` might not always need to be modified. 
 
 The key to tuning is patience! Only modify one value at a time, and increment in small values. 
+
+## Zine
+
+*Designed in Figma*
+
+<img width="1500" height="2303" alt="Training Wheels Zine-Final-1" src="https://github.com/user-attachments/assets/b05d9276-83e3-4d60-8f45-cbc28fbe558c" />
 
 ## Acknowledgements
 
