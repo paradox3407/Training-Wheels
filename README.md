@@ -40,7 +40,7 @@ This project was made for [Hackclub's](https://hackclub.com/programs) Fallout Pr
   *Designed in KiCad*
 
   <p align="center">
-    <img width="800" alt="Assembled PCB" src="https://github.com/user-attachments/assets/f798cc63-53ed-43c6-a397-5de1428bea95" />
+    <img width="1077" height="920" alt="Screenshot 2026-06-16 174314" src="https://github.com/user-attachments/assets/1ed5fff1-4801-4fbb-b494-bb096011044b" />
   </p>
 
   #### Schematic
