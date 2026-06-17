@@ -6264,9 +6264,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "C:/Users/parad/OneDrive/Documents/Training Wheels/CAD Files/PCB Design/Kicad Tools/ESP32 dev Kit v1.step"
+		(model "C:/Users/parad/OneDrive/Documents/Training Wheels/CAD Files/PCB Design/Kicad Tools/esp32_30pin-v3.step"
 			(offset
-				(xyz 0 25 11)
+				(xyz 12 22 12.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -6295,6 +6295,28 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x15_P2.54mm_Vertical.step"
+			(offset
+				(xyz 12.5 15 11)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x15_P2.54mm_Vertical.step"
+			(offset
+				(xyz -12.5 15 11)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
 			)
 		)
 	)
