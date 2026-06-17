@@ -29,7 +29,7 @@ This project was made for [Hackclub's](https://hackclub.com/programs) Fallout Pr
   ### Chassis / Assembly
   *Designed in Onshape* 
   
-  Source Files found [here](https://cad.onshape.com/documents/563a6cb8d162cb6cd823a1f9/w/2660c435afac39828b2200f7/e/e81ee193bff4145dfd9a22a6)
+  Source Files found [here](https://cad.onshape.com/documents/563a6cb8d162cb6cd823a1f9/w/2660c435afac39828b2200f7/e/e81ee193bff4145dfd9a22a6?renderMode=0&uiState=6a32417e83808aa5af5cc75c)
 
   <p align="center">
     <img width="607" height="933" alt="Screenshot 2026-06-16 010238" src="https://github.com/user-attachments/assets/20d90fa9-5498-4d31-8a8c-7351772157d1" />
