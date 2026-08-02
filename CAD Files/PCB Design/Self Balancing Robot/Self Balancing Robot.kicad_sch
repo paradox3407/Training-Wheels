@@ -4335,7 +4335,7 @@
 		(uuid "45143663-acc7-4635-9f9d-a7f9077819eb")
 	)
 	(label "R_2B"
-		(at 246.38 41.91 0)
+		(at 240.03 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4345,17 +4345,17 @@
 		(uuid "50329a01-4d60-4d95-894f-745a19fb73c9")
 	)
 	(label "R_2A"
-		(at 261.62 41.91 180)
+		(at 240.03 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "54b456e6-210e-45d3-adf4-f2a64dcd05ff")
 	)
 	(label "L_2B"
-		(at 246.38 66.04 0)
+		(at 240.03 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4415,22 +4415,22 @@
 		(uuid "adcebdef-a3a8-42dd-9df7-924e0425c143")
 	)
 	(label "R_1A"
-		(at 240.03 49.53 0)
+		(at 261.62 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "afc9117a-a49d-4bdb-91dc-c016fdc35795")
 	)
 	(label "L_1A"
-		(at 240.03 72.39 0)
+		(at 261.62 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b02e134a-cdea-49c9-af12-85bfaeb3fe77")
 	)
@@ -4455,7 +4455,7 @@
 		(uuid "b8373fcc-f4e5-47e8-bc6c-e8acaf22071a")
 	)
 	(label "R_1B"
-		(at 240.03 54.61 0)
+		(at 246.38 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4475,7 +4475,7 @@
 		(uuid "be954a4a-7142-4fa9-97d7-0cd927537a9f")
 	)
 	(label "L_1B"
-		(at 240.03 77.47 0)
+		(at 246.38 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4485,12 +4485,12 @@
 		(uuid "c040d1da-ffb5-4a3c-8e60-be18ffbcac25")
 	)
 	(label "L_2A"
-		(at 261.62 66.04 180)
+		(at 240.03 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "de6de5c0-c27c-48e3-8d74-aa92c36d83df")
 	)
@@ -5310,7 +5310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
 			(at 254.254 75.184 0)
 			(effects
 				(font
@@ -8039,7 +8039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
 			(at 254.254 52.324 0)
 			(effects
 				(font
