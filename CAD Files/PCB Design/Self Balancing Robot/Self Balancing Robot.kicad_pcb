@@ -8571,14 +8571,14 @@
 			)
 		)
 	)
-	(footprint "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+	(footprint "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6bd59919-91bd-4ee4-9af6-13abee2e9d8a")
 		(at 92.2 65 -90)
 		(descr "AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf")
 		(tags "XT60 female vertical")
 		(property "Reference" "J1"
-			(at 3.9 -5.5 90)
+			(at 3.6 -5.3 90)
 			(layer "F.SilkS")
 			(uuid "e8061a2f-2b8f-4adf-a9e6-5405e5c51568")
 			(effects
@@ -8588,8 +8588,8 @@
 				)
 			)
 		)
-		(property "Value" "XT60 Female"
-			(at 3.6 5.4 90)
+		(property "Value" "XT60 Male"
+			(at 3.6 5.4 270)
 			(layer "F.Fab")
 			(uuid "01a337fe-ca36-4dc9-abae-3b2a6a567c72")
 			(effects
@@ -8638,7 +8638,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4c6bd814-e05c-40d4-9f8d-94238690bdc7")
+			(uuid "f83970db-f02f-469e-9257-5ee346705098")
 		)
 		(fp_line
 			(start 11.45 4.15)
@@ -8648,7 +8648,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d17ffebb-84e8-4a5f-acfc-baaa457f7fc0")
+			(uuid "b9a79f6e-5836-435b-98cd-6ef5d2813caf")
 		)
 		(fp_line
 			(start -4.25 1.55)
@@ -8658,7 +8658,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "aaac9330-8cfc-45cb-850e-d8a52cb9f0d9")
+			(uuid "4c4d66df-327a-474f-8ee8-1dabcf7141f3")
 		)
 		(fp_line
 			(start -4.25 -1.6)
@@ -8668,7 +8668,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "617cff60-af26-4315-be1c-13bfa60bcbd0")
+			(uuid "5c574624-17f9-4e79-bfbe-7de5cefb52f2")
 		)
 		(fp_line
 			(start -1.4 -4.15)
@@ -8678,7 +8678,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "da3e6455-9593-4b3a-935b-47b0da9a92a6")
+			(uuid "ed583cc0-cfea-4a7a-be01-bcc83ee72cb9")
 		)
 		(fp_line
 			(start 11.45 -4.15)
@@ -8688,7 +8688,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3257614a-2a94-4c00-a497-91bd9e0d3630")
+			(uuid "d2f32bb4-5785-4307-9443-c952a67d57dd")
 		)
 		(fp_line
 			(start -1.6 4.6)
@@ -8698,7 +8698,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4f013a0a-6a15-4f10-b33c-49ef1976c527")
+			(uuid "62a349b9-914d-46ab-97b4-2a5237e41b77")
 		)
 		(fp_line
 			(start 11.85 4.6)
@@ -8708,7 +8708,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e82902f0-7125-4579-8ffa-647640d8faf9")
+			(uuid "9bdd3590-3633-4e8e-9c08-d43ba44e33ca")
 		)
 		(fp_line
 			(start -4.65 1.85)
@@ -8718,7 +8718,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "dc70074d-dc5c-4b4e-b21d-e52012633d49")
+			(uuid "4610df41-a2bf-429f-9851-817a69986787")
 		)
 		(fp_line
 			(start -4.65 -1.85)
@@ -8728,7 +8728,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "efa8ae69-115f-48e5-94ec-a1ab783681b5")
+			(uuid "215c4eda-f425-4fa4-8e7b-27e388a5de2b")
 		)
 		(fp_line
 			(start -1.6 -4.6)
@@ -8738,7 +8738,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "11604635-4964-497a-87d5-79bb3c249259")
+			(uuid "2b50f9a9-5d97-4fa5-b3ae-07a72be346d1")
 		)
 		(fp_line
 			(start 11.85 -4.6)
@@ -8748,7 +8748,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3fe3e695-ea8d-4c8b-9beb-a175d3d9b8d4")
+			(uuid "9956a162-fd1e-4520-b6ba-81c6cb9a533c")
 		)
 		(fp_line
 			(start -1.4 4.05)
@@ -8758,7 +8758,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ad380dff-288b-4a30-8101-aaa7fb06d48e")
+			(uuid "1078d875-be7a-4cde-8b91-66d9627fea38")
 		)
 		(fp_line
 			(start 11.35 4.05)
@@ -8768,7 +8768,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5612ad45-b6ee-4d6e-9375-e24ed4f54218")
+			(uuid "1f9a780f-fabd-4e3f-bdd3-b15eb41ee5d3")
 		)
 		(fp_line
 			(start -4.15 1.55)
@@ -8778,7 +8778,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "204f7ac9-b828-4391-a807-2d9e849c256a")
+			(uuid "454a031b-2a6f-415b-a7ba-2acb5725fe4d")
 		)
 		(fp_line
 			(start -4.15 -1.55)
@@ -8788,7 +8788,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "23449aca-b9c9-43e2-83d3-216375209f23")
+			(uuid "025efb8a-e369-4ff1-9b96-3925edc94b34")
 		)
 		(fp_line
 			(start -1.4 -4.05)
@@ -8798,7 +8798,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f9cd279f-8161-4c83-ac74-7d6639148ecd")
+			(uuid "72b8910b-2e1a-4a02-b887-05e7a037b46b")
 		)
 		(fp_line
 			(start 11.35 -4.05)
@@ -8808,10 +8808,10 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0d8256f0-9f28-4275-8de7-9f287726527a")
+			(uuid "34db1663-c739-424e-9602-c27e786ed65d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.6 0.05 90)
+			(at 3.6 0.05 270)
 			(layer "F.Fab")
 			(uuid "d57bc430-3377-46a4-aee8-0e6432b5096a")
 			(effects
@@ -8845,7 +8845,7 @@
 			(uuid "69beacd0-aa1d-492c-85f8-ac8898126c52")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60-F_1x02_P7.2mm_Vertical.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60-M_1x02_P7.2mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)

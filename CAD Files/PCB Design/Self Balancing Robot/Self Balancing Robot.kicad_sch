@@ -7960,7 +7960,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "XT60 Female"
+		(property "Value" "XT60 Male"
 			(at 151.13 24.1299 0)
 			(effects
 				(font
@@ -7969,7 +7969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 148.59 21.59 0)
 			(effects
 				(font
