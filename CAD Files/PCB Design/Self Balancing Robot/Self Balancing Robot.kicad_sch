@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Training Wheels Schematic")
-		(date "2026-08-02")
-		(rev "1.2")
+		(date "2026-08-04")
+		(rev "1.3")
 		(company "By: Sara Chiguchi")
 	)
 	(lib_symbols
