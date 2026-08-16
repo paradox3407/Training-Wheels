@@ -5,18 +5,21 @@
   #include <AccelStepper.h>
 
   // global variables
-  // declaring pins
-  const int step1PIN = 18, dir1_PIN = 19;
-  const int step2PIN = 25, dir2_PIN = 26; 
-  // MPU I2c pinss
+
+  // declaring stepper pins
+  const int step1PIN = 19, dir1_PIN = 18;
+  const int step2PIN = 5, dir2_PIN = 17; 
+
+  // MPU I2c pins
   const int SDA_PIN = 21;
   const int SCL_PIN = 22;
 
+  // PID variables/gains
+
   const float desiredOutput = 0; // desired angle 
-  const float Kp = 0; 
-  const float Ki = 0;
-  const float Kd = 0;
-  
+  const float Kp = 1000; 
+  const float Ki = 1;
+  const float Kd = 1;
   
   const int minSpeed = 0;
 
@@ -44,12 +47,15 @@
     mpu.setAccOffsets(-0.0283935554, 0.0057998048,  -0.0133457035);
     mpu.setGyroOffsets(0.2869922817, 0.6501984596, -0.4168854356);
 
+    stepper1.setMaxSpeed(100000);
+    stepper2.setMaxSpeed(100000);
+
   }
 
   void setMotorSpeeds(float u) {
-    u = constrain(u, -1500, 1500);
+    u = constrain(u, -15000, 15000);
     stepper1.setSpeed(u);
-    stepper2.setSpeed(-u);
+    stepper2.setSpeed(u);
   }
 
   void loop() {
