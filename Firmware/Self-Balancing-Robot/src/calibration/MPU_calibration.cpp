@@ -6,6 +6,7 @@
 MPU6050 mpu(Wire);
 
 void setup() {
+  delay(2000); // wait for 2 seconds to allow the MPU6050 to stabilize
   Serial.begin(115200);
   Wire.begin();
   byte mpuSucess = mpu.begin();
@@ -37,6 +38,19 @@ void setup() {
   Serial.println(gyroYoffset, 10);
   Serial.print("gyroZoffset: ");
   Serial.println(gyroZoffset, 10);
+  Serial.print("Accelerometer offsets: ");
+  Serial.print(accXoffset, 10);
+  Serial.print(", ");
+  Serial.print(accYoffset, 10); 
+  Serial.print(", ");
+  Serial.print(accZoffset, 10);
+  Serial.println();
+  Serial.print("Gyroscope offsets: ");
+  Serial.print(gyroXoffset, 10);
+  Serial.print(", ");
+  Serial.print(gyroYoffset, 10);
+  Serial.print(", ");
+  Serial.println(gyroZoffset, 10);  
 }
 void loop() {
   
